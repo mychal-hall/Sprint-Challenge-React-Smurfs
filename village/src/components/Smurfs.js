@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./components.css";
 import Smurf from "./Smurf";
 
 class Smurfs extends Component {

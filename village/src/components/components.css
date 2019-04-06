@@ -1,0 +1,87 @@
+/* NAVIGATION */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #8fb253;
+  border: 1px solid gray;
+}
+
+.navhead {
+  color: #001737;
+  margin-left: 5%;
+}
+
+.navlinks {
+  margin: 20px 5% 20px 0;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  background: #533400;
+  color: white;
+  padding-top: 11px;
+  text-decoration: none;
+  width: 100px;
+}
+
+/*  Smurf List */
+
+.Smurfs {
+  background: #314d00;
+}
+
+.Smurf {
+  background: #001737;
+  color: #bdcda1;
+  width: 20%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* Add Smurf Form */
+
+.SmurfForm {
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.input {
+  margin: 10px auto;
+  height: 25px;
+  width: 40%;
+}
+
+.btn {
+  width: 35%;
+  margin: 10px auto;
+  height: 30px;
+  background: white;
+  border: none;
+}
+
+.formHead {
+  background: #533400;
+  color: white;
+  width: 400px;
+  border: 1px solid white;
+  margin: 10px auto;
+}
